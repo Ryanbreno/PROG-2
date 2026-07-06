@@ -20,15 +20,15 @@ int main()
     {
 
         while (opcao < 1 || opcao > 3)
-        cout << "Bem vindo!";
-        cout << "Qual nivel deseja acessar? " << endl;
-        cout << "1 - Basico\n"
+            cout << "Bem vindo!";
+            cout << "Qual nivel deseja acessar? " << endl;
+            cout << "1 - Basico\n"
              << endl;
-        cout << "2 - intermediário\n"
+            cout << "2 - intermediário\n"
              << endl;
-        cout << "3 - total\n"
+            cout << "3 - total\n"
              << endl;
-        cin >> opcao;
+            cin >> opcao;
         {
             switch (opcao)
             {
